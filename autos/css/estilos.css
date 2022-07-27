@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(17, 17, 17);
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column; 
+    border-bottom: 3px solid black;
+    height: 90px;
+    margin-bottom: 40px;
+}
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: black;
+}
+p{
+    color: rgb(54, 53, 53);
+    font-size: 1.2em;
+}
+img{
+    border-radius: 15px 15px 0px 0px;
+}
+.img{
+    width: 100%; 
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.descripcion{
+    flex-direction: column;display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.auto{
+    background-color: rgb(255, 128, 0);
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    width: 600px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logo{
+    text-align: right;
+    height: 60px;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    text-align: left;
+    height: 100px;
+}
+li{
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#menu li{
+    display: inline;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    /* align-items:center;  */
+    flex-direction: column;  
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+form{
+
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    color: white;
+    margin: 10px;
+}
+#contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+legend{
+    color: white;
+    margin: 0 auto;
+}
+fieldset{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+

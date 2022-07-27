@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: black; */
+}
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    border-bottom: 3px solid black;
+}
+main{
+    display: flex; 
+}
+h1{
+    color: white;
+}
+div{
+    color: white;
+}
+
+
+
+
+
+
+
+.col{
+    width: 16.66%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    height: 100vh;
+}
+
+
+.c1{
+    background-color: rgb(12, 52, 133);
+}
+.c2{
+    background-color: rgb(30, 74, 160);
+}
+.c3{
+    background-color: rgb(28, 86, 202);
+}
+.c4{
+    background-color: rgb(43, 69, 121);
+}
+.c5{
+    background-color: rgb(65, 84, 121);
+}
+.c6{
+    background-color: rgb(106, 127, 168);
+}
